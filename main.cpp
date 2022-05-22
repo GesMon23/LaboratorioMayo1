@@ -6,7 +6,7 @@ int main(int argc, char** argv) {
 	Not[0]=0;Not[1]=0;Not[2]=0;
 	int op, i, Prom, SumaNot;
 	char bucle='a';
-	while (bucle!='N'||bucle!='n'){
+	while (bucle!='N'){
 		cout<<"LISTADO DE ALUMNOS"<<endl;
 		for(i=0;i<5;i++){
 			cout<<i+1<<". "<<Nombres[i]<<endl;
@@ -80,6 +80,7 @@ int main(int argc, char** argv) {
 		}
 	cout<<"DESEA SELECCIONAR OTRO ESTUDIANTE? S/N"<<endl;
 	cin>>bucle;
+	if(bucle='n')bucle='N';
 	cout<<endl;
 	}
 	system("pause");
