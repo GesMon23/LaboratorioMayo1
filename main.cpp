@@ -63,11 +63,11 @@ int main(int argc, char** argv) {
 					break;
 				case 3:
 					if(Not[0]<Not[1]&&Not[0]<Not[2]){
-						cout<<"LA NOTA MAS ALTA ES: "<<Not[0]<<endl;
+						cout<<"LA NOTA BAJA ALTA ES: "<<Not[0]<<endl;
 					}
 					else{
 						if(Not[1]<Not[0]&&Not[1]<Not[2]){
-							cout<<"LA NOTA MAS ALTA ES: "<<Not[1]<<endl;
+							cout<<"LA NOTA BAJA ALTA ES: "<<Not[1]<<endl;
 						}
 						else{
 							cout<<"LA NOTA MAS ALTA ES: "<<Not[2]<<endl;
